@@ -7,7 +7,8 @@
 
 ##Apache user should should be owner of "php-aes" folder.
 
-##The application uses AES-256 algorithm to encrypt/decrypt file. The PHP implementation
+##Algorith Used
+  The application uses AES-256 algorithm to encrypt/decrypt file. The PHP implementation
   of encryption/decryption has been downloaded from 
   
   https://www.aescrypt.com/
