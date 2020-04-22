@@ -5,9 +5,9 @@
 	yum install php-mbstring
 	yum install php-sqlite
 
-# Apache user should should be owner of "php-aes" folder.
+**Apache user should should be owner of "php-aes" folder.**
 
-# Algorith Used
+# Algorithm Used
   The application uses AES-256 algorithm to encrypt/decrypt file. The PHP implementation
   of encryption/decryption has been downloaded from 
   
