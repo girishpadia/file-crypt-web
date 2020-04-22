@@ -1,20 +1,20 @@
-##Application is based on Apache, PHP and Sqlite.
+# Application is based on Apache, PHP and Sqlite.
 
-##You need to install PHP's mcrypt,mbistring and sqlite library.
+# You need to install PHP's mcrypt,mbistring and sqlite library.
   	yum install php-mcrypt
 	yum install php-mbstring
 	yum install php-sqlite
 
-##Apache user should should be owner of "php-aes" folder.
+# Apache user should should be owner of "php-aes" folder.
 
-##Algorith Used
+# Algorith Used
   The application uses AES-256 algorithm to encrypt/decrypt file. The PHP implementation
   of encryption/decryption has been downloaded from 
   
   https://www.aescrypt.com/
   https://github.com/philios33/PHP-AES-File-Encryption
 
-##The application structure.
+# The application structure.
 	index.php    => Entry point of application. It asks username.
 	
   	menu.php     => Shows option to upload,download the file.
@@ -32,7 +32,7 @@
   	-- 1) filename and (2) secretkey.
 		It will search in sqlite database for correctness of these details and will decrypt the file based on secret key. If the decryption is successful it will provide a link to download the decrypted file.
 			     
-##Features Required:
+# Features Required:
  - User Authintication module needs to be implemented.
  - The files decrypted by user remains on disk. This should be deleted after download.
  - Directory files listing appears if you access URL like
